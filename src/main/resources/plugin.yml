@@ -1,0 +1,7 @@
+name: Lifesteal
+version: ${project.version}
+main: com.seailz.lifesteal.LifestealPlugin
+api-version: 1.18
+authors: [ Seailz ]
+description: Lifesteal Plugin
+website: www.seailz.com
