@@ -1,6 +1,7 @@
 package com.seailz.lifesteal;
 
 import com.seailz.lifesteal.listeners.PlayerDeath;
+import com.seailz.lifesteal.listeners.PlayerJoin;
 import games.negative.framework.BasePlugin;
 
 public final class LifestealPlugin extends BasePlugin {
@@ -10,7 +11,8 @@ public final class LifestealPlugin extends BasePlugin {
         // Plugin startup logic
 
         registerListeners(
-                new PlayerDeath()
+                new PlayerDeath(),
+                new PlayerJoin()
         );
     }
 
