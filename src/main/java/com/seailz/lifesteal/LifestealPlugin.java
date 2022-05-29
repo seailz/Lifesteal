@@ -8,16 +8,9 @@ public final class LifestealPlugin extends BasePlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
         registerListeners(
                 new PlayerDeath(),
                 new PlayerJoin()
         );
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
     }
 }

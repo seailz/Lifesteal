@@ -15,8 +15,7 @@ public class PlayerDeath implements Listener {
         Player p = e.getEntity();
         Player o = e.getEntity().getKiller();
 
-
-        if (o == null) return;
+        assert o != null;
 
         // Set correct health
         o.setMaxHealth(o.getMaxHealth() + 2.00);
