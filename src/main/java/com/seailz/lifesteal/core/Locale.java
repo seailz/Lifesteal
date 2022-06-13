@@ -1,6 +1,5 @@
 package com.seailz.lifesteal.core;
 
-
 import games.negative.framework.message.Message;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
