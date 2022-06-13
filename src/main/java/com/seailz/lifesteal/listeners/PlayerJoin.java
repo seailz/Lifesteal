@@ -30,7 +30,7 @@ public class PlayerJoin implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
         if (!e.getPlayer().hasPlayedBefore()) {
-            int hearts = NumberUtils.generateRandomNumber(8, 32);
+            int hearts = NumberUtils.generateRandomNumber(16, 30);
             e.getPlayer().setMaxHealth(hearts);
             e.getPlayer().setHealth(hearts);
         }
